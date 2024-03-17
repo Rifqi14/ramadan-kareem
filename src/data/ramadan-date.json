@@ -1,0 +1,164 @@
+[
+	{
+		"date_for": "2024-3-17",
+		"fajr": "4:15 am",
+		"shurooq": "5:30 am",
+		"dhuhr": "11:37 am",
+		"asr": "2:47 pm",
+		"maghrib": "5:44 pm",
+		"isha": "6:50 pm"
+	},
+	{
+		"date_for": "2024-3-18",
+		"fajr": "4:15 am",
+		"shurooq": "5:30 am",
+		"dhuhr": "11:37 am",
+		"asr": "2:48 pm",
+		"maghrib": "5:43 pm",
+		"isha": "6:50 pm"
+	},
+	{
+		"date_for": "2024-3-19",
+		"fajr": "4:15 am",
+		"shurooq": "5:30 am",
+		"dhuhr": "11:36 am",
+		"asr": "2:48 pm",
+		"maghrib": "5:43 pm",
+		"isha": "6:49 pm"
+	},
+	{
+		"date_for": "2024-3-20",
+		"fajr": "4:15 am",
+		"shurooq": "5:30 am",
+		"dhuhr": "11:36 am",
+		"asr": "2:48 pm",
+		"maghrib": "5:42 pm",
+		"isha": "6:49 pm"
+	},
+	{
+		"date_for": "2024-3-21",
+		"fajr": "4:15 am",
+		"shurooq": "5:29 am",
+		"dhuhr": "11:35 am",
+		"asr": "2:48 pm",
+		"maghrib": "5:42 pm",
+		"isha": "6:48 pm"
+	},
+	{
+		"date_for": "2024-3-22",
+		"fajr": "4:15 am",
+		"shurooq": "5:29 am",
+		"dhuhr": "11:35 am",
+		"asr": "2:48 pm",
+		"maghrib": "5:41 pm",
+		"isha": "6:48 pm"
+	},
+	{
+		"date_for": "2024-3-23",
+		"fajr": "4:15 am",
+		"shurooq": "5:29 am",
+		"dhuhr": "11:35 am",
+		"asr": "2:48 pm",
+		"maghrib": "5:41 pm",
+		"isha": "6:47 pm"
+	},
+	{
+		"date_for": "2024-3-24",
+		"fajr": "4:15 am",
+		"shurooq": "5:29 am",
+		"dhuhr": "11:35 am",
+		"asr": "2:48 pm",
+		"maghrib": "5:40 pm",
+		"isha": "6:47 pm"
+	},
+	{
+		"date_for": "2024-3-25",
+		"fajr": "4:15 am",
+		"shurooq": "5:29 am",
+		"dhuhr": "11:34 am",
+		"asr": "2:48 pm",
+		"maghrib": "5:40 pm",
+		"isha": "6:46 pm"
+	},
+	{
+		"date_for": "2024-3-26",
+		"fajr": "4:15 am",
+		"shurooq": "5:29 am",
+		"dhuhr": "11:34 am",
+		"asr": "2:49 pm",
+		"maghrib": "5:39 pm",
+		"isha": "6:46 pm"
+	},
+	{
+		"date_for": "2024-3-27",
+		"fajr": "4:14 am",
+		"shurooq": "5:29 am",
+		"dhuhr": "11:34 am",
+		"asr": "2:49 pm",
+		"maghrib": "5:39 pm",
+		"isha": "6:45 pm"
+	},
+	{
+		"date_for": "2024-3-28",
+		"fajr": "4:14 am",
+		"shurooq": "5:29 am",
+		"dhuhr": "11:34 am",
+		"asr": "2:49 pm",
+		"maghrib": "5:38 pm",
+		"isha": "6:45 pm"
+	},
+	{
+		"date_for": "2024-3-29",
+		"fajr": "4:14 am",
+		"shurooq": "5:29 am",
+		"dhuhr": "11:33 am",
+		"asr": "2:49 pm",
+		"maghrib": "5:38 pm",
+		"isha": "6:44 pm"
+	},
+	{
+		"date_for": "2024-3-30",
+		"fajr": "4:14 am",
+		"shurooq": "5:28 am",
+		"dhuhr": "11:33 am",
+		"asr": "2:49 pm",
+		"maghrib": "5:37 pm",
+		"isha": "6:44 pm"
+	},
+	{
+		"date_for": "2024-3-31",
+		"fajr": "4:14 am",
+		"shurooq": "5:28 am",
+		"dhuhr": "11:33 am",
+		"asr": "2:49 pm",
+		"maghrib": "5:37 pm",
+		"isha": "6:43 pm"
+	},
+	{ "date_for": "2024-4-1", "fajr": "4:14 am", "shurooq": "5:28 am", "dhuhr": "11:32 am", "asr": "2:49 pm", "maghrib": "5:36 pm", "isha": "6:43 pm" },
+	{ "date_for": "2024-4-2", "fajr": "4:14 am", "shurooq": "5:28 am", "dhuhr": "11:32 am", "asr": "2:49 pm", "maghrib": "5:36 pm", "isha": "6:42 pm" },
+	{ "date_for": "2024-4-3", "fajr": "4:14 am", "shurooq": "5:28 am", "dhuhr": "11:32 am", "asr": "2:49 pm", "maghrib": "5:35 pm", "isha": "6:42 pm" },
+	{ "date_for": "2024-4-4", "fajr": "4:13 am", "shurooq": "5:28 am", "dhuhr": "11:31 am", "asr": "2:49 pm", "maghrib": "5:35 pm", "isha": "6:41 pm" },
+	{ "date_for": "2024-4-5", "fajr": "4:13 am", "shurooq": "5:28 am", "dhuhr": "11:31 am", "asr": "2:49 pm", "maghrib": "5:34 pm", "isha": "6:41 pm" },
+	{ "date_for": "2024-4-6", "fajr": "4:13 am", "shurooq": "5:28 am", "dhuhr": "11:31 am", "asr": "2:49 pm", "maghrib": "5:34 pm", "isha": "6:41 pm" },
+	{ "date_for": "2024-4-7", "fajr": "4:13 am", "shurooq": "5:28 am", "dhuhr": "11:31 am", "asr": "2:49 pm", "maghrib": "5:34 pm", "isha": "6:40 pm" },
+	{ "date_for": "2024-4-8", "fajr": "4:13 am", "shurooq": "5:28 am", "dhuhr": "11:30 am", "asr": "2:49 pm", "maghrib": "5:33 pm", "isha": "6:40 pm" },
+	{ "date_for": "2024-4-9", "fajr": "4:13 am", "shurooq": "5:28 am", "dhuhr": "11:30 am", "asr": "2:49 pm", "maghrib": "5:33 pm", "isha": "6:39 pm" },
+	{
+		"date_for": "2024-4-10",
+		"fajr": "4:13 am",
+		"shurooq": "5:27 am",
+		"dhuhr": "11:30 am",
+		"asr": "2:49 pm",
+		"maghrib": "5:32 pm",
+		"isha": "6:39 pm"
+	},
+	{
+		"date_for": "2024-4-11",
+		"fajr": "4:13 am",
+		"shurooq": "5:27 am",
+		"dhuhr": "11:30 am",
+		"asr": "2:49 pm",
+		"maghrib": "5:32 pm",
+		"isha": "6:38 pm"
+	}
+]
