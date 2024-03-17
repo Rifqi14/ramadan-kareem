@@ -26,15 +26,18 @@ export default function Home() {
 			audioRef.current.play();
 		}
 	};
+	const now = dayjs().format('YYYY-M-DD');
+	const tomorrow = dayjs().add(1, 'day').format('YYYY-M-DD');
+	const currentCalendar = calendar.find(cal => cal.date_for === now);
+	const nextCalendar = calendar.find(cal => cal.date_for === tomorrow);
 
 	useEffect(() => {
-		const now = dayjs().format('YYYY-M-DD');
-		const tomorrow = dayjs().add(1, 'day').format('YYYY-M-DD');
-		const currentCalendar = calendar.find(cal => cal.date_for === now);
-		const nextCalendar = calendar.find(cal => cal.date_for === tomorrow);
-
 		setTodayMaghrib(dayjs(`${currentCalendar?.date_for} ${currentCalendar?.maghrib}`));
-		setNextImsaq(dayjs(`${nextCalendar?.date_for} ${nextCalendar?.fajr}`).subtract(10, 'minute'));
+		if (dayjs().isBefore(dayjs(`${currentCalendar?.date_for} ${currentCalendar?.fajr}`))) {
+			setNextImsaq(dayjs(`${currentCalendar?.date_for} ${currentCalendar?.fajr}`).subtract(10, 'minute'));
+		} else {
+			setNextImsaq(dayjs(`${nextCalendar?.date_for} ${nextCalendar?.fajr}`).subtract(10, 'minute'));
+		}
 		setIdulFitri(dayjs('2024/04/11'));
 		play();
 	}, []);
@@ -44,14 +47,16 @@ export default function Home() {
 				<Counter days={dayIdulFitri} hours={hourIdulFitri} minutes={minuteIdulFitri} seconds={secondIdulFitri} withDays />
 				<p className='text-xl font-medium'>Menjelang Idul FItri</p>
 			</div>
-			<div className='flex w-full'>
+			<div className='flex flex-col sm:flex-row gap-5 sm:gap-0 w-full'>
+				<div className='w-full flex flex-col items-center gap-5'>
+					<Counter days={dayImsaq} hours={hourImsaq} minutes={minuteImsaq} seconds={secondImsaq} withDays={false} />
+					<p className='text-xl font-medium'>
+						Menjelang Imsak {dayjs().isAfter(dayjs(`${currentCalendar?.date_for} ${currentCalendar?.fajr}`)) && 'Berikutnya'}
+					</p>
+				</div>
 				<div className='w-full flex flex-col items-center gap-5'>
 					<Counter days={day} hours={hour} minutes={minute} seconds={second} withDays={false} />
 					<p className='text-xl font-medium'>Menjelang Maghrib</p>
-				</div>
-				<div className='w-full flex flex-col items-center gap-5'>
-					<Counter days={dayImsaq} hours={hourImsaq} minutes={minuteImsaq} seconds={secondImsaq} withDays={false} />
-					<p className='text-xl font-medium'>Menjelang Imsak</p>
 				</div>
 			</div>
 			<audio ref={audioRef} src='/adzan.mp3' />

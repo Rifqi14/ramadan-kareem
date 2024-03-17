@@ -14,7 +14,7 @@ export default function Counter({
 	withDays: boolean;
 }) {
 	return (
-		<div className='flex flex-row items-center font-bold gap-10 text-6xl border-2 border-black rounded-full w-fit p-10'>
+		<div className='flex flex-row items-center font-bold gap-4 sm:gap-10 text-lg sm:text-6xl border-2 border-black rounded-full w-fit p-10'>
 			{withDays && (
 				<>
 					<DateTimeDisplay value={days} type='Hari' />
